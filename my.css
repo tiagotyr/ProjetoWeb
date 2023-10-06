@@ -73,6 +73,7 @@ body * {
   right: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: deslizarv 0.2s;
 }
 
 .container {
@@ -121,7 +122,11 @@ input[type="submit"]:hover {
 }
 
 .temaclaro #switch button {
-  left: 0;
+  animation: deslizar 0.2s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--social-link-hover);
 }
 
 #switch span {
@@ -207,5 +212,23 @@ footer {
 
   .temaclaro {
     --bg-url: url(./image/bg-desktop-light.jpg);
+  }
+}
+
+@keyframes deslizar {
+  from {
+    right: 0;
+  }
+  to {
+    right: 50%;
+  }
+}
+
+@keyframes deslizarv {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
   }
 }

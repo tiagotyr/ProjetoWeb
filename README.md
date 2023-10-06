@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 - Figma
-- PHP
+- API de Formulario de Contato
 
 ## 💻 Projeto
 

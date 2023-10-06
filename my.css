@@ -198,3 +198,14 @@ footer {
   font-style: italic;
   font-weight: 400;
 }
+
+/*media querry*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./image/bg-desktop.jpg);
+  }
+
+  .temaclaro {
+    --bg-url: url(./image/bg-desktop-light.jpg);
+  }
+}
